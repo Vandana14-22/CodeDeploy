@@ -1213,7 +1213,9 @@
             e.preventDefault();
             const x = e.pageX - testimonialSlider.offsetLeft;
             const walk = (x - startX) * 2;
-        
+    testimonialSlider.scrollLeft = scrollLeft - walk;
+   
+
     </script>
 </body>
 </html>
