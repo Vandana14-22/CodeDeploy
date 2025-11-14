@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusShop - Modern E-Commerce</title>
@@ -1211,8 +1213,7 @@
             e.preventDefault();
             const x = e.pageX - testimonialSlider.offsetLeft;
             const walk = (x - startX) * 2;
-            testimonialSlider.scrollLeft = scrollLeft - walk;
-        });
+        
     </script>
 </body>
 </html>
